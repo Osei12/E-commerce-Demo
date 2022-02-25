@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce web | Hompage</title>
+    <link rel="icon" href="assets/images/tablogo.png" type="image/gif/png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/owl-carousel/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="slide owl-carousel owl-theme">
+            <div class="slider-area slider-1"></div>
+            <div class="slider-area slider-2"></div>
+            <div class="slider-area slider-3"></div>
+        </div>
+        <header>
+            <div>
+                <a class="logo" href="index.html">LOGO</a>
+            </div>
+
+            <nav>
+                <svg class="close" viewBox="0 0 43 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M21.5 2.75C26.4894 2.75 31.2744 4.77812 34.8024 8.38819C38.3305 11.9983 40.3125 16.8946 40.3125 22C40.3125 27.1054 38.3305 32.0017 34.8024 35.6118C31.2744 39.2219 26.4894 41.25 21.5 41.25C16.5106 41.25 11.7256 39.2219 8.19755 35.6118C4.66953 32.0017 2.6875 27.1054 2.6875 22C2.6875 16.8946 4.66953 11.9983 8.19755 8.38819C11.7256 4.77812 16.5106 2.75 21.5 2.75ZM21.5 19.6653L17.1301 15.1938C16.8276 14.8841 16.4172 14.7102 15.9893 14.7102C15.5614 14.7102 15.151 14.8841 14.8484 15.1938C14.5459 15.5034 14.3759 15.9233 14.3759 16.3611C14.3759 16.799 14.5459 17.2189 14.8484 17.5285L19.2183 22L14.8484 26.4715C14.6986 26.6248 14.5798 26.8068 14.4987 27.0071C14.4176 27.2074 14.3759 27.4221 14.3759 27.6389C14.3759 27.8557 14.4176 28.0704 14.4987 28.2707C14.5798 28.471 14.6986 28.6529 14.8484 28.8063C14.9983 28.9596 15.1761 29.0812 15.3719 29.1641C15.5676 29.2471 15.7774 29.2898 15.9893 29.2898C16.2012 29.2898 16.411 29.2471 16.6067 29.1641C16.8024 29.0812 16.9803 28.9596 17.1301 28.8063L21.5 24.3347L25.8699 28.8063C26.0197 28.9596 26.1976 29.0812 26.3933 29.1641C26.589 29.2471 26.7988 29.2898 27.0107 29.2898C27.2226 29.2898 27.4324 29.2471 27.6281 29.1641C27.8239 29.0812 28.0017 28.9596 28.1516 28.8063C28.3014 28.6529 28.4202 28.471 28.5013 28.2707C28.5824 28.0704 28.6241 27.8557 28.6241 27.6389C28.6241 27.4221 28.5824 27.2074 28.5013 27.0071C28.4202 26.8068 28.3014 26.6248 28.1516 26.4715L23.7817 22L28.1516 17.5285C28.3014 17.3752 28.4202 17.1932 28.5013 16.9929C28.5824 16.7926 28.6241 16.5779 28.6241 16.3611C28.6241 16.1443 28.5824 15.9296 28.5013 15.7293C28.4202 15.529 28.3014 15.3471 28.1516 15.1938C28.0017 15.0404 27.8239 14.9188 27.6281 14.8359C27.4324 14.7529 27.2226 14.7102 27.0107 14.7102C26.7988 14.7102 26.589 14.7529 26.3933 14.8359C26.1976 14.9188 26.0197 15.0404 25.8699 15.1938L21.5 19.6653Z"
+                        fill="#000" />
+                </svg>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <button><a href="#">Login</a></button>
+                    <li><a href="#"><svg class="cart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                <path
+                                    d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z" />
+                            </svg></i></a></li>
+                </ul>
+            </nav>
+            <svg class="menu" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M55.7721 47.4321H24.1507V42.1619H55.7721V47.4321ZM55.7721 34.2566H8.33997V28.9863H55.7721V34.2566ZM55.7721 21.081H24.1507V15.8107H55.7721V21.081Z"
+                    fill="black" />
+            </svg>
+
+        </header>
+        <div class="slider-text">
+            <h2>Welcome to Logo<br> online shop.</h2>
+            <p>
+                Our products are affordable and our delivery services are second to none
+            </p>
+            <div class="hero-style">
+                <div class="bar"></div>
+                <h4>Shop with us</h4>
+            </div>
+        </div>
+
+    </div>
+    <section class="categories">
+        <h3>Categories</h3>
+        <div class="contents">
+            <div class="row">
+                <div class="col">
+                    <div class="icons">
+                        <a href="#">
+                            <svg viewBox="0 0 69 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_9_277)">
+                                    <path
+                                        d="M16.4194 5.02827L0.681519 17.4687V29.9091H13.7215L14.1711 58.9366H54.6399V29.9091H68.1294V17.4687L52.3916 5.02827H45.6468L34.4055 21.6155L23.1642 5.02827H16.4194Z"
+                                        fill="#F24E1E" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_9_277">
+                                        <rect width="67.4479" height="62.202" fill="white"
+                                            transform="translate(0.681519 0.88147)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <p>
+                                Clothing
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icons">
+                        <a href="#">
+                            <svg viewBox="0 0 88 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M60.6805 8.52682H27.1647C25.8948 8.52682 24.677 8.96986 23.7791 9.75846C22.8812 10.5471 22.3767 11.6167 22.3767 12.7319V63.1929C22.3767 64.3082 22.8812 65.3778 23.7791 66.1664C24.677 66.955 25.8948 67.398 27.1647 67.398H60.6805C61.9503 67.398 63.1682 66.955 64.0661 66.1664C64.964 65.3778 65.4684 64.3082 65.4684 63.1929V12.7319C65.4684 11.6167 64.964 10.5471 64.0661 9.75846C63.1682 8.96986 61.9503 8.52682 60.6805 8.52682ZM46.3166 63.1929H41.5286V58.9879H46.3166V63.1929ZM27.1647 54.7828V12.7319H60.6805V54.7828H27.1647Z"
+                                    fill="#F24E1E" />
+                            </svg>
+                            <p>
+                                Phones & Tablets
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="icons">
+                        <a href="#">
+                            <svg viewBox="0 0 70 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_9_287)">
+                                    <path
+                                        d="M59.9593 1.04468H9.8344C4.92326 1.04468 0.927063 4.51756 0.927063 8.78651V52.3428C0.927063 56.6127 4.92219 60.0865 9.8344 60.0865H59.9593C64.8705 60.0865 68.8656 56.6136 68.8656 52.3428V8.78651C68.8656 4.51756 64.8705 1.04468 59.9593 1.04468ZM55.7778 36.6171H41.8586V48.7126H27.9426V36.6171H14.0192V24.5141H27.9426V12.4186H41.8586V24.5141H55.7778V36.6171Z"
+                                        fill="#F24E1E" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_9_287">
+                                        <rect width="68.5674" height="59.5883" fill="white"
+                                            transform="translate(0.580994 0.744873)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <p>
+                                Health
+                            </p>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icons">
+                        <a href="#">
+                            <svg viewBox="0 0 74 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M67.1871 2.13239H6.92276C4.77046 2.13239 2.61816 3.94988 2.61816 5.76738V46.6615C2.61816 48.479 4.77046 50.2965 6.92276 50.2965H28.4457V53.9315C28.4457 56.4556 24.5682 57.5665 19.8365 57.5665V60.2922H54.2733V57.5655C49.5405 57.5655 45.6641 56.4547 45.6641 53.9305V50.2955H67.1871C69.3394 50.2955 71.4917 48.478 71.4917 46.6605V5.76738C71.4917 3.94988 69.3394 2.13239 67.1871 2.13239ZM69.1959 46.6615C69.1959 47.4069 68.0687 48.3578 67.1871 48.3578H6.92276C6.04003 48.3578 4.91395 47.4069 4.91395 46.6615V43.0265H69.1959V46.6615Z"
+                                    fill="#F24E1E" />
+                                <path
+                                    d="M37.055 47.5707C37.6497 47.5707 38.1317 47.1637 38.1317 46.6615C38.1317 46.1594 37.6497 45.7523 37.055 45.7523C36.4603 45.7523 35.9783 46.1594 35.9783 46.6615C35.9783 47.1637 36.4603 47.5707 37.055 47.5707Z"
+                                    fill="#F24E1E" />
+                            </svg>
+                            <p>
+                                Computers
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="icons">
+                        <a href="#">
+                            <svg viewBox="0 0 83 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M67.1908 50.9939H58.6879M24.6762 56.4221V14.1389C24.6762 13.6843 24.8912 13.2482 25.2739 12.9268C25.6567 12.6053 26.1757 12.4247 26.7169 12.4247H56.6472C56.9151 12.4247 57.1805 12.469 57.4281 12.5552C57.6757 12.6413 57.9007 12.7676 58.0902 12.9268C58.2796 13.0859 58.43 13.2749 58.5325 13.4829C58.6351 13.6909 58.6879 13.9138 58.6879 14.1389V56.4221C58.6879 56.6472 58.6351 56.8701 58.5325 57.0781C58.43 57.2861 58.2796 57.4751 58.0902 57.6342C57.9007 57.7934 57.6757 57.9197 57.4281 58.0058C57.1805 58.092 56.9151 58.1363 56.6472 58.1363H26.7169C26.1757 58.1363 25.6567 57.9557 25.2739 57.6342C24.8912 57.3128 24.6762 56.8767 24.6762 56.4221V56.4221ZM48.4844 58.1363V65.2787V58.1363ZM34.8797 58.1363V65.2787V58.1363ZM48.4844 12.4247V5.28226V12.4247ZM34.8797 12.4247V5.28226V12.4247ZM24.6762 35.2805H16.1733H24.6762ZM67.1908 35.2805H58.6879H67.1908ZM24.6762 19.5671H16.1733H24.6762ZM67.1908 19.5671H58.6879H67.1908ZM24.6762 50.9939H16.1733H24.6762Z"
+                                    stroke="#F24E1E" stroke-width="5.10174" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                            <p>
+                                Electronics
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icons">
+                        <a href="#">
+                            <svg viewBox="0 0 82 83" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M61.2429 11.1189C62.076 11.119 62.88 11.4249 63.5026 11.9784C64.1251 12.532 64.5228 13.2948 64.6203 14.1221L64.6441 14.5201V68.9386C64.6431 69.8055 64.3112 70.6393 63.7161 71.2697C63.121 71.9 62.3077 72.2794 61.4423 72.3302C60.5769 72.381 59.7247 72.0994 59.06 71.543C58.3952 70.9866 57.968 70.1974 57.8656 69.3366L57.8418 68.9386V51.9328H54.4406C53.6075 51.9327 52.8035 51.6269 52.181 51.0733C51.5584 50.5197 51.1607 49.7569 51.0633 48.9296L51.0394 48.5317V28.1247C51.0394 20.6081 56.1412 11.1189 61.2429 11.1189ZM40.836 11.1189C41.669 11.119 42.4731 11.4249 43.0956 11.9784C43.7181 12.532 44.1158 13.2948 44.2133 14.1221L44.2371 14.5201V31.5259C44.2367 34.5423 43.2344 37.4731 41.3875 39.858C39.5407 42.2429 36.954 43.9467 34.0336 44.702V68.9386C34.0327 69.8055 33.7007 70.6393 33.1056 71.2697C32.5105 71.9 31.6972 72.2794 30.8318 72.3302C29.9664 72.381 29.1143 72.0994 28.4495 71.543C27.7847 70.9866 27.3575 70.1974 27.2551 69.3366L27.2313 68.9386V44.702C24.4269 43.977 21.9269 42.3762 20.0949 40.1325C18.2629 37.8889 17.1944 35.1193 17.0448 32.2265L17.0278 31.5259V14.5201C17.0288 13.6532 17.3607 12.8194 17.9558 12.189C18.5509 11.5587 19.3643 11.1793 20.2297 11.1285C21.0951 11.0777 21.9472 11.3593 22.612 11.9157C23.2767 12.4721 23.704 13.2613 23.8063 14.1221L23.8302 14.5201V31.5259C23.8302 32.7199 24.1445 33.8929 24.7415 34.9269C25.3386 35.961 26.1973 36.8197 27.2313 37.4167V14.5201C27.2323 13.6532 27.5642 12.8194 28.1593 12.189C28.7544 11.5587 29.5678 11.1793 30.4332 11.1285C31.2985 11.0777 32.1507 11.3593 32.8155 11.9157C33.4802 12.4721 33.9074 13.2613 34.0098 14.1221L34.0336 14.5201L34.037 37.4167C34.9862 36.868 35.7886 36.0981 36.3761 35.1725C36.9636 34.2469 37.3186 33.1931 37.411 32.1007L37.4348 31.5259V14.5201C37.4348 13.618 37.7931 12.7529 38.431 12.1151C39.0688 11.4772 39.9339 11.1189 40.836 11.1189Z"
+                                    fill="#F24E1E" />
+                            </svg>
+                            <p>
+                                Food
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="icons">
+                        <a href="#">
+                            <svg viewBox="0 0 83 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M57.684 10.1941H46.3361C44.2856 10.1998 44.3624 12.8587 46.3361 12.843H57.684V14.2023H46.3361C44.2971 14.1867 44.3722 16.8441 46.3361 16.8512H57.684V18.2403H46.3361C44.2971 18.2403 44.3722 20.8963 46.3361 20.8892H57.684V22.2129H46.3361C44.3395 22.2257 44.3722 24.8846 46.3361 24.8931H57.684V26.2197H46.3361C44.3395 26.214 44.3313 28.8686 46.3361 28.8686H57.684V30.1923H46.3361C44.3395 30.198 44.3313 32.8554 46.3361 32.8426H57.684V34.1991H46.3361C44.3395 34.1834 44.3313 36.838 46.3361 36.848H57.684V38.1689H46.3361C44.3395 38.1674 44.3722 40.8277 46.3361 40.8192H57.684V66.6109C57.6906 70.5409 64.5522 70.4699 64.5718 66.6109V6.25415C64.5522 4.45886 62.8576 2.18918 60.0692 2.18208H46.3361C44.2856 2.1835 44.3624 4.84235 46.3361 4.83099L57.684 4.86366V6.18456H46.3361C44.2889 6.17604 44.3656 8.83346 46.3361 8.83488H57.684V10.1941ZM45.5558 55.9201C45.5492 51.3324 40.0834 46.3982 33.5532 49.594V32.0473L29.3298 3.10813C29.2416 2.34258 28.4955 2.1622 27.9943 2.14941C27.4768 2.1622 26.4402 2.34258 26.3275 3.10813L22.1253 32.0473V49.594C15.5951 46.3982 10.3056 51.3637 10.304 55.8846C10.3056 59.9069 13.8646 63.2106 18.6806 63.2007C23.5326 63.2106 27.023 59.5078 27.023 55.8846V37.6575H28.6555V55.8846C28.6555 59.941 32.2668 62.9436 36.2796 63.1339C36.2126 65.3581 37.0469 68.5312 38.6174 69.7896C40.4589 71.2667 42.6515 69.3777 41.7519 67.8394C40.8834 66.4078 40.0312 65.5598 40.7234 62.4337C43.6163 61.269 45.5492 58.8175 45.5558 55.9201ZM18.8667 59.5291C17.7659 59.5291 16.7101 59.1487 15.9317 58.4714C15.1533 57.7942 14.7159 56.8757 14.7159 55.9179C14.7159 54.9602 15.1533 54.0417 15.9317 53.3645C16.7101 52.6872 17.7659 52.3068 18.8667 52.3068C21.1294 52.3181 22.9726 53.933 22.9889 55.9201C22.9843 56.8721 22.5493 57.7843 21.778 58.4596C21.0067 59.1349 19.9609 59.5191 18.8667 59.5291ZM32.8594 55.9201C32.8632 54.9672 33.2979 54.0539 34.0697 53.3777C34.8414 52.7016 35.888 52.3168 36.9832 52.3068C38.0788 52.3154 39.1262 52.6997 39.8981 53.3762C40.6699 54.0527 41.1037 54.9669 41.1054 55.9201C41.1037 56.8729 40.6697 57.7866 39.8978 58.4624C39.1258 59.1383 38.0783 59.5216 36.9832 59.5291C35.8883 59.5205 34.8414 59.1369 34.0695 58.4613C33.2976 57.7857 32.8628 56.8727 32.8594 55.9201Z"
+                                    fill="#F24E1E" />
+                            </svg>
+                            <p>
+                                Beauty
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="icons">
+                        <a href="#">
+                            <svg viewBox="0 0 71 78" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_9_299)">
+                                    <path
+                                        d="M22.4382 38.9622C22.4382 40.2498 21.9751 41.4847 21.1507 42.3953C20.3264 43.3058 19.2083 43.8173 18.0424 43.8173C16.8766 43.8173 15.7585 43.3058 14.9341 42.3953C14.1097 41.4847 13.6466 40.2498 13.6466 38.9622C13.6466 37.6745 14.1097 36.4396 14.9341 35.5291C15.7585 34.6186 16.8766 34.1071 18.0424 34.1071C19.2083 34.1071 20.3264 34.6186 21.1507 35.5291C21.9751 36.4396 22.4382 37.6745 22.4382 38.9622ZM40.0215 38.9622C40.0215 40.2498 39.5584 41.4847 38.734 42.3953C37.9096 43.3058 36.7915 43.8173 35.6257 43.8173C34.4598 43.8173 33.3417 43.3058 32.5174 42.3953C31.693 41.4847 31.2299 40.2498 31.2299 38.9622C31.2299 37.6745 31.693 36.4396 32.5174 35.5291C33.3417 34.6186 34.4598 34.1071 35.6257 34.1071C36.7915 34.1071 37.9096 34.6186 38.734 35.5291C39.5584 36.4396 40.0215 37.6745 40.0215 38.9622ZM53.2089 43.8173C54.3748 43.8173 55.4929 43.3058 56.3172 42.3953C57.1416 41.4847 57.6047 40.2498 57.6047 38.9622C57.6047 37.6745 57.1416 36.4396 56.3172 35.5291C55.4929 34.6186 54.3748 34.1071 53.2089 34.1071C52.0431 34.1071 50.925 34.6186 50.1006 35.5291C49.2762 36.4396 48.8131 37.6745 48.8131 38.9622C48.8131 40.2498 49.2762 41.4847 50.1006 42.3953C50.925 43.3058 52.0431 43.8173 53.2089 43.8173Z"
+                                        fill="#F24E1E" />
+                                    <path
+                                        d="M9.97604 76.8464L10.064 76.827C18.1083 75.0646 23.0228 72.739 25.3086 71.4621C28.674 72.4535 32.1426 72.953 35.6256 72.9478C55.0463 72.9478 70.7921 57.732 70.7921 38.9622C70.7921 20.1925 55.0463 4.97668 35.6256 4.97668C16.2049 4.97668 0.459106 20.1925 0.459106 38.9622C0.459106 47.5072 3.7252 55.3238 9.11886 61.2956C8.74151 65.1316 7.9687 68.9074 6.81545 72.5497L6.80227 72.6031C6.47453 73.6463 6.11682 74.6777 5.72969 75.6958C5.38242 76.5988 6.05498 77.6087 6.92974 77.4533C7.94809 77.2692 8.96365 77.0669 9.97604 76.8464ZM13.4927 61.7568C13.5543 61.046 13.4731 60.329 13.2551 59.6568C13.037 58.9846 12.6874 58.3738 12.2311 57.8679C7.57153 52.7021 4.85492 46.0895 4.85492 38.9622C4.85492 23.4648 18.0599 9.83176 35.6256 9.83176C53.1913 9.83176 66.3963 23.4648 66.3963 38.9622C66.3963 54.4645 53.1913 68.0927 35.6256 68.0927C32.527 68.0977 29.4412 67.6537 26.4472 66.7721C25.4009 66.4625 24.2879 66.5904 23.3217 67.1314C21.6206 68.083 17.8709 69.8988 11.7432 71.467C12.598 68.2973 13.1838 65.0465 13.4927 61.7568Z"
+                                        fill="#F24E1E" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_9_299">
+                                        <rect width="70.333" height="77.6813" fill="white"
+                                            transform="translate(0.459106 0.121582)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <p>
+                                Others
+                            </p>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section">
+        <h3 class="h-style">Products you may like</h3>
+        <div class="container-fluid mt-5">
+            <div class="title">
+                <h4>Fashion</h4>
+                <a href="#">
+                    <h4>see all</h4>
+                </a>
+            </div>
+        </div>
+        <div class="products-contents">
+            <div class="container-fluid mt-5">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;25.00</h4>
+                                <div class="rating">
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star grey" aria-hidden="true"></i>
+                                </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/7.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/8.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="title">
+                <h4>Phones & Tablets</h4>
+                <a href="#">
+                    <h4>see all</h4>
+                </a>
+            </div>
+        </div>
+        <div class="products-contents">
+            <div class="container-fluid mt-5">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/m1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/m2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/m3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/m4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/m5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/m6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/m7.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/m8.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="title">
+                <h4>Electronics</h4>
+                <a href="#">
+                    <h4>see all</h4>
+                </a>
+            </div>
+        </div>
+        <div class="products-contents">
+            <div class="container-fluid mt-5">
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star  grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+                <div class="card">
+                    <div class="imgbox">
+                        <img src="assets/images/product-img/3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="product-name">
+                            <h3>Shirts</h3>
+                        </div>
+                        <div class="price-rating">
+                            <h2>GH&#8373;45.00</h2>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                                <i class="fa fa-star grey" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <button><a href="#">Buy now</a></button>
+                </div>
+            </div>
+        </div>
+
+        <section id="shop" class="discount-section mx-auto my-5 py-3">
+            <div class=" container discount-section-content">
+                <h4>UPCOMING WEEKEND <span>DISCOUNTS</span></h4>
+                <h3>-10%</h3>
+                <button><a href="#">Shop now</a></button>
+            </div>
+        </section>
+
+
+        <section class="email-section">
+            <h3>Having troubles <br>Mail us?</h3>
+            <div class="container email-content">
+                <form>
+
+                    <div>
+                        <label for="email-input"></label><br>
+                        <input id="email-input" type="text" name="email-inputted" placeholder="Name">
+                        <label for="email-input"></label><br>
+                        <input id="email-input" type="email" name="email-inputted" placeholder="Email">
+                    </div>
+                    <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <div class="row">
+                <div class="col">
+                    <img src="assets/media/images/20211217_080342_ccexpress.png" alt="" class="logo">
+
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas corporis optio, laboriosam earum
+                        repellat eos nostrum nemo ullam voluptas tempora.</p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur.<br> Thank you
+                    </p>
+                </div>
+                <div class="col">
+                    <h3>Location <div class="underline"><span></span></div>
+                    </h3>
+                    <p>Onasis Road</p>
+                    <p>Kumasi,Ghana</p>
+                    <p>Asuoyeboah, AK-4388560</p>
+                    <p class="email-id">oseiadu47@gmail.com</p>
+                    <h4>+233 - 544061819</h4>
+                </div>
+                <div class="col">
+                    <h3>Links <div class="underline"><span></span></div>
+                    </h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">Shop</a></li>
+                        <li><a href="#services">About</a></li>
+                        <li><a href="#slider">Contact/a></li>
+                        <li><a href="#contact">Cart</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Newsletter<div class="underline"><span></span></div>
+                    </h3>
+                    <form>
+                        <i class="far fa-envelope"> </i>
+                        <input type="email" placeholder="Enter your email id" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/rhema.kusi.7/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/alvin_kay1/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/osei-kusi-aa3b05221/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">
+                LOGO &copy; 2022 - All Rights Reserved
+            </p>
+        </footer>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/owl-carousel/owl.carousel.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/owl-slider.js"></script>
+</body>
+
+</html>

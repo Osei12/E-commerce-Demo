@@ -221,7 +221,7 @@ nav ul button a {
 }
 
 nav ul button a:hover {
-  background-color: black;
+  color: white;
 }
 
 .open-nav {
@@ -929,6 +929,15 @@ footer .copyright {
   }
   nav .close {
     display: none;
+  }
+}
+
+@media (orientation: landscape) {
+  nav {
+    overflow-y: auto;
+  }
+  nav ul {
+    overflow-y: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
